@@ -1,9 +1,9 @@
 header {
 	background-color: red;
 	width: 100%;
-	height: 75px;
+	height: 60px;
 	text-align: center;
-	font-family: 'Karla', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	position: fixed;
 	z-index: 100;
 }
@@ -18,6 +18,7 @@ footer {
 body {
 	margin: 0;
 	display: inline;
+	background-color: #DDD1C7;
 }
 
 p {
@@ -25,23 +26,14 @@ p {
 	display: inline;
 }
 
-.logoBar {
-	text-align: center;
-	width: 100%;
-	height: 50px;
-	background-color: blue;
-	display: inline-block;
-}
-
-.logoBar h1 {
-	margin-top: 5px;
-	margin-bottom: 0;
+section {
+	font-family: 'Open Sans', sans-serif;
 }
 
 .menuBar {
 	width: 100%;
-	height: 25px;
-	background-color: green;
+	height: 60px;
+	background-color: rgb(240,240,240);
 	display: inline-block;
 }
 
@@ -49,40 +41,51 @@ p {
 	margin-left: 20px;
 	margin-right: 20px;
 	font-weight: bold;
-	font-size: 10px;
+	font-size: 20PX;
 	display: inline-block;
-
+	margin-top: 15px;
+	color: rgb(230,17,15);
 }
 
 .menuBar p:hover {
-	font-size: 15px;
-	transition-duration: 0.5s;
+	font-size: 26PX;
+	transition: 0.5s;
+	margin-top: 0px;
 }
 
 .about {
 	width: 65%;
 	height: 500px;
 	margin: 0 auto;
-	background-color: red;
+	background-color: #8DB580;
 	display: block;
 	position: relative;
-	margin-top: 75px;
+	margin-top: 60px;
 }
 
 .education {
 	width: 65%;
-	height: 450px;
+	height: 700px;
 	margin: 0 auto;
-	background-color: blue;
+	background-color: #4B4A67;
 	display: block;
 	position: relative;
+
+}
+
+.education h1 {
+	color: rgb(240,240,240);
+}
+
+.education p {
+	color: rgb(240,240,240)
 }
 
 .workExperience {
 	width: 65%;
 	height: 700px;
 	margin: 0 auto;
-	background-color: green;
+	background-color: #7E8987;
 	display: block;
 	position: relative;
 }
@@ -99,7 +102,6 @@ p {
 .leftColumn {
 	width: 50%;
 	height: 100%;
-	background-color: rgb(30,30,30);
 	display: inline-block;
 	position: relative;
 }
@@ -116,7 +118,6 @@ p {
 .rightColumn {
 	width: 50%;
 	height: 100%;
-	background-color: rgb(80,80,80);
 	display: inline;
 	position: absolute;
 }
@@ -124,12 +125,20 @@ p {
 .textbox {
 	width: 75%;
 	height: 75%;
-	background-color: rgb(200,200,200);
 	display: inline-block;
 	position: absolute;
-	text-align: center;
 	margin-left: 75px;
 	margin-top: 60px;
+}
+
+.textbox h1 {
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+.textbox p {
+	text-align: center;
+	font-size: 22px;
 }
 
 section h1 {
@@ -143,4 +152,44 @@ section h1 {
 	margin-top: 10px;
 	position: relative;
 	display: inline-block;
+	margin-bottom: 20px;
 }
+
+.containerTitle h1 {
+	font-size: 36px;
+}
+
+.centerColumn {
+	width: 80%;
+	height: 200px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.timestamp {
+	width: 40%;
+	height: 50px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.contextBox {
+	width: 50%;
+	height: 50px;
+	display: inline;
+	position: relative;
+	float: right;
+	margin-bottom: 20px;
+}
+
+.textbox_02 {
+	float: right;
+}
+
+.textbox_02 h1 {
+	margin-right: 10px;
+	font-size: 24px;
+}
+
