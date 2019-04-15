@@ -1,0 +1,1 @@
+This is my final assignment. I did not do the small introduction assignments because i ran out of time doing other resits and school assignents. So instead of learning HTML and CSS from Lynda (which I heard was very time consuming and thhat people really struggled with it) I asked a friend to teach me, which went pretty well. 
