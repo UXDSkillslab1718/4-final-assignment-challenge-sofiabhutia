@@ -80,7 +80,20 @@ footer h1 {
 	background-color: #4B4A67;
 	display: block;
 	position: relative;
+	overflow: hidden;
+}
 
+.educationBackground {
+	width: 120%;
+	height: 640px;
+	margin: 0 auto;
+	background-color: #4B4A67;
+	display: block;
+	position: absolute;
+	filter: blur(2px);
+	background-image: url(images/xining.jpg);
+	margin-left: -40px;
+	margin-top: -10px;
 }
 
 .education h1 {
