@@ -30,6 +30,14 @@ section {
 	font-family: 'Open Sans', sans-serif;
 }
 
+footer h1 {
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(240,240,240);
+	text-align: center;
+	margin-top: 0;
+	font-size: 12px;
+}
+
 .menuBar {
 	width: 100%;
 	height: 60px;
@@ -51,6 +59,8 @@ section {
 	font-size: 26PX;
 	transition: 0.5s;
 	margin-top: 0px;
+	transform: rotate(360deg);
+	cursor: pointer;
 }
 
 .about {
@@ -65,7 +75,7 @@ section {
 
 .education {
 	width: 65%;
-	height: 700px;
+	height: 620px;
 	margin: 0 auto;
 	background-color: #4B4A67;
 	display: block;
@@ -83,7 +93,7 @@ section {
 
 .workExperience {
 	width: 65%;
-	height: 700px;
+	height: 420px;
 	margin: 0 auto;
 	background-color: #7E8987;
 	display: block;
@@ -128,7 +138,7 @@ section {
 	display: inline-block;
 	position: absolute;
 	margin-left: 75px;
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 .textbox h1 {
@@ -172,7 +182,7 @@ section h1 {
 	width: 40%;
 	height: 50px;
 	display: inline-block;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .contextBox {
@@ -181,7 +191,7 @@ section h1 {
 	display: inline;
 	position: relative;
 	float: right;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .textbox_02 {
@@ -193,3 +203,36 @@ section h1 {
 	font-size: 24px;
 }
 
+.myButton {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:13px 49px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+	border: none;
+}
+
+.myButton:hover {
+	background-color:#eb675e;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.pdf {
+	display: inline-block;
+	margin-left: 42%;
+}
