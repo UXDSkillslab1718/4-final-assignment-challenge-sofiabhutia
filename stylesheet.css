@@ -1,15 +1,19 @@
 header {
 	background-color: red;
 	width: 100%;
+	height: 75px;
 	text-align: center;
 	font-family: 'Karla', sans-serif;
 	position: fixed;
+	z-index: 100;
 }
 
-/*footer {
-	background-color: red;
+footer {
+	background-color: rgb(50,50,50);
 	height: 150px;
-}*/
+	display: block;
+	position: relative;
+}
 
 body {
 	margin: 0;
@@ -24,6 +28,7 @@ p {
 .logoBar {
 	text-align: center;
 	width: 100%;
+	height: 50px;
 	background-color: blue;
 	display: inline-block;
 }
@@ -35,6 +40,7 @@ p {
 
 .menuBar {
 	width: 100%;
+	height: 25px;
 	background-color: green;
 	display: inline-block;
 }
@@ -59,5 +65,37 @@ p {
 	margin: 0 auto;
 	background-color: red;
 	text-align: center;
-	display: inline-block;
+	display: block;
+	position: relative;
+	margin-top: 75px;
+}
+
+.education {
+	width: 65%;
+	height: 450px;
+	margin: 0 auto;
+	background-color: blue;
+	text-align: center;
+	display: block;
+	position: relative;
+}
+
+.workExperience {
+	width: 65%;
+	height: 700px;
+	margin: 0 auto;
+	background-color: green;
+	text-align: center;
+	display: block;
+	position: relative;
+}
+
+.schoolProjects {
+	width: 65%;
+	height: 700px;
+	margin: 0 auto;
+	background-color: red;
+	text-align: center;
+	display: block;
+	position: relative;
 }
